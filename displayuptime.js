@@ -9,6 +9,6 @@ ut_min = ut_min % 60
 ut_hour = ut_hour % 60
 
 console.log('Up Time For Machine is')
-console.log('Hours', ut_hour);
-console.log('Minutes ', ut_min);
-console.log('Seconds ', ut_sec);
+console.log('               Hours', ut_hour);
+console.log('               Minutes ', ut_min);
+console.log('               Seconds ', ut_sec);
