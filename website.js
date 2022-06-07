@@ -12,7 +12,7 @@ const server = http.createServer((req, res)=> {
     res.statusCode = 200;
     //clearfy the type of content and in which form we want response i.e. text or html
     res.setHeader('type-content','text/html');
-    //server response 
+    //server response
     if(req.url == '/hello'){
         statusCode = 200;
         res.end('<h1> Hello world </h1>');
